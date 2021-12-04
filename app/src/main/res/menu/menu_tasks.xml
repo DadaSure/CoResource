@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.youli.feiyu.fynotification.MainActivity">
+    <item
+        android:id="@+id/action_create"
+        android:orderInCategory="0"
+        android:icon="@drawable/plus_small"
+        android:title="新建任务"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="1"
+        android:icon="@drawable/comma"
+        android:title="关于"
+        app:showAsAction="never" />
+</menu>

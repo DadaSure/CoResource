@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="欢迎！"
+        android:textColor="#FF9746"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="20dp"
+        android:text="欢迎使用防疫物资登记软件"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="20dp"
+        android:text="在本软件中你可以添加并追踪"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="20dp"
+        android:text="各种防疫物资的库存和使用情况"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="20dp"
+        android:text="方便地对各项防疫物资进行管理"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="17sp"
+        android:textColor="#000000"
+        android:text="点击下方登陆按钮以开始使用" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/btn_orange"
+            android:text="登陆"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_new"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_gray"
+            android:text="新用户"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
